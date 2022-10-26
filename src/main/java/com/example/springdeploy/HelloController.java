@@ -22,7 +22,7 @@ public class HelloController {
         return "Hola mundo como va?";
     }
 
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         //Con 3 comillas podes introducir un bloque de String
         return """
